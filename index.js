@@ -13,7 +13,7 @@ module.exports = {
     "react/no-is-mounted": 2,
     // "react/no-multi-comp": not-defined
     // "react/no-set-state": not-defined
-    "react/no-strings-refs": 2,
+    "react/no-string-refs": 2,
     "react/no-unknown-property": 2,
     "react/prefer-es6-class": [2, "always"],
     "react/prefer-stateless-function": 2,
