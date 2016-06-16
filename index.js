@@ -18,7 +18,7 @@ module.exports = {
     "react/prefer-es6-class": [2, "always"],
     "react/prefer-stateless-function": 2,
     "react/prop-types": 2,
-    "react/react-in-jsx-scope": 2
+    "react/react-in-jsx-scope": 2,
     // "react/require-extension": not-defined
     "react/require-render-return": 2,
     "react/self-closing-comp": 2,
