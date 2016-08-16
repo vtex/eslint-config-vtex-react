@@ -24,11 +24,7 @@ module.exports = {
       "html": false
     }],
     // "react/sort-comp": not-defined
-    "react/sort-prop-types": [2, {
-      "callbacksLast": true,
-      "ignoreCase": false,
-      "requiredFirst": true
-    }],
+    // "react/sort-prop-types": 0, this is a pain in the arse
     // JSX Rules
     "react/jsx-wrap-multilines": 1,
     "react/jsx-boolean-value": 2,
