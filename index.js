@@ -1,7 +1,4 @@
 module.exports = {
-  ecmaFeatures: {
-    jsx: true
-  },
   "rules": {
     "react/display-name": 2,
     // "react/forbid-prop-types": not-defined
