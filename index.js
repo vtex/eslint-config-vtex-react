@@ -1,57 +1,87 @@
 module.exports = {
-  "rules": {
-    "react/display-name": 2,
-    // "react/forbid-prop-types": not-defined
-    // "react/no-danger": 0, the prop is already clear that its use it's dangerous
-    "react/no-deprecated": 2,
-    // "react/no-did-mount-set-state": 0,
-    // "react/no-did-update-set-state": 0,
+  rules: {
+    "react/display-name": 0,
+    "react/forbid-component-props": 0,
+    "react/forbid-elements": 0,
+    "react/forbid-prop-types": 0,
+    "react/forbid-foreign-prop-types": 0,
+    "react/no-array-index-key": 1,
+    "react/no-children-prop": 1,
+    "react/no-danger": 2,
+    "react/no-danger-with-children": 2,
+    "react/no-deprecated": 1,
+    "react/no-did-mount-set-state": 2,
+    "react/no-did-update-set-state": 2,
     "react/no-direct-mutation-state": 2,
+    "react/no-find-dom-node": 1,
     "react/no-is-mounted": 2,
-    // "react/no-multi-comp": not-defined
-    // "react/no-set-state": not-defined
-    "react/no-string-refs": 2,
+    "react/no-multi-comp": 2,
+    "react/no-redundant-should-component-update": 2,
+    "react/no-render-return-value": 0,
+    "react/no-set-state": 1,
+    "react/no-typos": 2,
+    "react/no-string-refs": 1,
+    "react/no-unescaped-entities": 2,
     "react/no-unknown-property": 2,
+    "react/no-unused-prop-types": 2,
+    "react/no-unused-state": 2,
+    "react/no-will-update-set-state": 2,
     "react/prefer-es6-class": [2, "always"],
-    "react/prefer-stateless-function": 0,
+    "react/prefer-stateless-function": 1,
     "react/prop-types": 2,
     "react/react-in-jsx-scope": 2,
+    "react/require-default-props": 0,
+    "react/require-optimization": 0,
     "react/require-render-return": 2,
-    "react/self-closing-comp": [2, {
-      "html": false
-    }],
-    // "react/sort-comp": not-defined
-    // "react/sort-prop-types": 0, this is a pain in the arse
-    // JSX Rules
-    "react/jsx-wrap-multilines": 1,
-    "react/jsx-boolean-value": 2,
-    // "react/jsx-closing-bracket-location": not-defined
-    "react/jsx-curly-spacing": [2, "never"],
-    "react/jsx-equals-spacing": [2, "never"],
-    // "react/first-prop-new-line": not-defined
-    "react/jsx-handler-names": [2, {
-      "eventHandlerPrefix": "handle",
-      "eventHandlerPropPrefix": "on"
-    }],
+    "react/self-closing-comp": [
+      2,
+      {
+        html: false,
+      },
+    ],
+    "react/sort-comp": 0,
+    "react/sort-prop-types": 0,
+    "react/style-prop-object": 0,
+    "react/void-dom-elements-no-children": 1,
+    // JSX-specific rules
+    "react/jsx-boolean-value": 0,
+    "react/jsx-closing-bracket-location": 2,
+    "react/jsx-closing-tag-location": 2,
+    "react/jsx-curly-spacing": 0,
+    "react/jsx-equals-spacing": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-first-prop-new-line": 0,
+    "react/jsx-handler-names": [
+      2,
+      {
+        eventHandlerPrefix: "handle",
+        eventHandlerPropPrefix: "on",
+      },
+    ],
     "react/jsx-indent": [2, 2],
     "react/jsx-indent-props": [2, 2],
     "react/jsx-key": 2,
-    // "react/jsx-max-props-per-line": not-defined
-    "react/jsx-no-bind": [2, {
-      "ignoreRefs": true,
-      "allowArrowFunctions": true
-    }],
+    "react/jsx-max-props-per-line": 0,
+    "react/jsx-no-bind": [
+      2,
+      {
+        ignoreRefs: true,
+        allowArrowFunctions: true,
+      },
+    ],
+    "react/jsx-no-comment-textnodes": 0,
     "react/jsx-no-duplicate-props": 2,
-    // "react/jsx-no-literals": not-defined
-    // "react/jsx-no-target-blank": not-defined
+    "react/jsx-no-literals": 0,
+    "react/jsx-no-target-blank": 1,
     "react/jsx-no-undef": 2,
-    "react/jsx-pascal-case": [2],
-    // "react/jsx-sort-props": 0,
+    "react/jsx-curly-brace-presence": 0,
+    "react/jsx-pascal-case": 2,
+    "react/jsx-sort-props": 0,
+    "react/jsx-space-before-closing": 2,
     "react/jsx-tag-spacing": 2,
     "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2
+    "react/jsx-uses-vars": 2,
+    "react/jsx-wrap-multilines": 1,
   },
-  "plugins": [
-    "react"
-  ]
-};
+  plugins: ["react"],
+}
