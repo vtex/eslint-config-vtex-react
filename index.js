@@ -1,4 +1,5 @@
 module.exports = {
+  "extends": "vtex",
   "rules": {
     "react/display-name": 2,
     // "react/forbid-prop-types": not-defined
@@ -49,7 +50,13 @@ module.exports = {
     // "react/jsx-sort-props": 0,
     "react/jsx-tag-spacing": 2,
     "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2
+    "react/jsx-uses-vars": 2,
+    "react/jsx-curly-spacing": 0,
+    "react/jsx-equals-spacing": 0,
+    "react/jsx-indent": 0,
+    "react/jsx-indent-props": 0,
+    "react/jsx-tag-spacing": 0,
+    "react/jsx-wrap-multilines": 0
   },
   "plugins": [
     "react"
