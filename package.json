@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/vtex/eslint-config-vtex-react/issues"
   },
-  "homepage": "https://github.com/vted/eslint-config-vtex-react#readme",
+  "homepage": "https://github.com/vtex/eslint-config-vtex-react#readme",
   "dependencies": {
     "eslint-config-vtex": "^8.0.0",
     "eslint-plugin-react": "^7.0.0"
