@@ -1,25 +1,11 @@
 # Eslint Config VTEX - React
 
-To this config work, you need to create two config files in your root folder: `package.json` and  `.prettierrc`.
-
-## Your `package.json` should have:
-
-```json
-{
-  "version": "0.0.0",
-  "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.9.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-config-vtex": "^8.0.0",
-    "eslint-config-vtex-react": "^3.0.3",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-lodash": "^4.0.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "prettier": "^1.15.2"
-  }
-}
+You need `yarn` installed on your computer and to run this on your root folder:
 ```
+yarn add babel-eslint eslint eslint-config-prettier eslint-config-vtex eslint-config-vtex-react eslint-plugin-import eslint-plugin-lodash eslint-plugin-prettier prettier
+```
+
+Also, to this config work, you need to create a config file in your root folder: `.prettierrc`.
 
 ## Your `.prettierrc` should have:
 
@@ -31,3 +17,4 @@ To this config work, you need to create two config files in your root folder: `p
   "jsxBracketSameLine": true
 }
 ```
+
