@@ -49,9 +49,11 @@ module.exports = {
     // "react/jsx-sort-props": 0,
     "react/jsx-tag-spacing": 2,
     "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2
+    "react/jsx-uses-vars": 2,
+    "react-hooks/rules-of-hooks": "error"
   },
   "plugins": [
-    "react"
+    "react",
+    "react-hooks"
   ]
 };
