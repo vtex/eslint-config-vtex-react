@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/brenoc/eslint-config-vtex-react#readme",
   "dependencies": {
-    "eslint-plugin-react": "^7.0.0"
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^1.0.0"
   }
 }
