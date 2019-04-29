@@ -52,7 +52,7 @@ module.exports = {
         eventHandlerPropPrefix: 'on',
       },
     ],
-    'react/jsx-indent': ['error', 2],
+    'react/jsx-indent': 'off',
     'react/jsx-indent-props': ['error', 2],
     // 'react/jsx-max-props-per-line': not-defined
     'react/jsx-no-bind': [
