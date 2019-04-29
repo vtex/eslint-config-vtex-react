@@ -53,7 +53,7 @@ module.exports = {
       },
     ],
     'react/jsx-indent': 'off',
-    'react/jsx-indent-props': ['error', 2],
+    'react/jsx-indent-props': 'off',
     // 'react/jsx-max-props-per-line': not-defined
     'react/jsx-no-bind': [
       'error',
