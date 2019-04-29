@@ -29,21 +29,16 @@ module.exports = {
     'react/prefer-es6-class': ['error', 'always'],
     'react/prefer-stateless-function': 'off',
     'react/prop-types': ['error', { skipUndeclared: true }],
-    'react/self-closing-comp': [
-      'error',
-      {
-        html: false,
-      },
-    ],
+    'react/self-closing-comp': 'off',
     // 'react/sort-comp': not-defined
     // 'react/sort-prop-types': 'off', this is a pain in the arse
 
     // JSX Rules
-    'react/jsx-wrap-multilines': 'warn',
+    'react/jsx-wrap-multilines': 'off',
     'react/jsx-boolean-value': 'error',
     // 'react/jsx-closing-bracket-location': not-defined
-    'react/jsx-curly-spacing': ['error', 'never'],
-    'react/jsx-equals-spacing': ['error', 'never'],
+    'react/jsx-curly-spacing': 'off',
+    'react/jsx-equals-spacing': 'off',
     // 'react/first-prop-new-line': not-defined
     'react/jsx-handler-names': [
       'error',
@@ -52,8 +47,8 @@ module.exports = {
         eventHandlerPropPrefix: 'on',
       },
     ],
-    'react/jsx-indent': ['error', 2],
-    'react/jsx-indent-props': ['error', 2],
+    'react/jsx-indent': 'off',
+    'react/jsx-indent-props': 'off',
     // 'react/jsx-max-props-per-line': not-defined
     'react/jsx-no-bind': [
       'error',
@@ -65,7 +60,7 @@ module.exports = {
     // 'react/jsx-no-literals': not-defined
     'react/jsx-pascal-case': ['error'],
     // 'react/jsx-sort-props': 'off',
-    'react/jsx-tag-spacing': 'error',
+    'react/jsx-tag-spacing': 'off',
 
     // Hooks
     'react-hooks/rules-of-hooks': 'error',
