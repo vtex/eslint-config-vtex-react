@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Fixed
-- Disabled `react/jsx-indent` rule (prettier already handles it).
+- Disabled all rules conflicting with `eslint-config-prettier/react`.
 
 ## [4.0.0] - 2019-03-15
 ### Changed

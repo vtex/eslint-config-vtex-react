@@ -1,3 +1,4 @@
+// Used for `eslint-config-prettier-check` to print all rules applied to the project.
 {
   "extends": "./index.js"
 }
