@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [5.0.0] - 2019-07-15
+### Changed
+- Updated `eslint-config-vtex` dependency version.
+
 ## [4.1.0] - 2019-04-29
 ### Fixed
 - Disabled all rules conflicting with `eslint-config-prettier/react`.
