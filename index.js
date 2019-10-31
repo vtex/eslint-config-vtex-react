@@ -65,5 +65,8 @@ module.exports = {
     // Hooks
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+
+    // eslint-plugin-import (from eslint-config-vtex)
+    'import/no-nodejs-modules': 'warn',
   },
 }

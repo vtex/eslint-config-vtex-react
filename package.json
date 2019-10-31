@@ -21,6 +21,9 @@
     "react"
   ],
   "author": "Breno Calazans",
+  "contributors": [
+    "Christian Kaisermann <christian.andrade@vtex.com.br>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brenoc/eslint-config-vtex-react/issues"
@@ -28,7 +31,7 @@
   "homepage": "https://github.com/brenoc/eslint-config-vtex-react#readme",
   "dependencies": {
     "eslint-config-prettier": "^6.0.0",
-    "eslint-config-vtex": "^11.0.0",
+    "eslint-config-vtex": "^11.2.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.6.1"
