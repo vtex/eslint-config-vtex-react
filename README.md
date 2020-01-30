@@ -1,3 +1,5 @@
+# Moved to [vtex/javascript](https://github.com/vtex/javascript/blob/master/packages/eslint-config-vtex-react/README.md)
+
 # eslint-config-vtex-react
 
 This package provides VTEX's `.eslintrc` for React projects as an extensible shared config.
